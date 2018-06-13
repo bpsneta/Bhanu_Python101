@@ -1,0 +1,12 @@
+for fb in range(1,100,1):
+    if fb%15==0:
+        print("FizzBuzz")
+        continue
+    elif fb%3==0:
+        print("Fizz")
+        continue
+    elif fb%5==0:
+        print("Buzz")
+        continue
+    print(fb)
+        
